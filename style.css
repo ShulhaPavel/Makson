@@ -3,17 +3,38 @@ header {
     font-size: 20px;
 }
 
-table a{
+header img{
+    width: 200px;
+}
+
+nav a{
     color: white;
 }
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+nav a:focus{
+    color: white;
+    background-color: blue;
+}
+
+
 
 footer a{
 color: white;
 }
 
 footer {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 body{
@@ -27,4 +48,24 @@ header img{
 
 img.a{
     margin-left: 200px;
+}
+
+main a{
+    color:blue;
+}
+
+main a:visited{
+    color: grey;
+}
+
+main img{
+    opacity: 0.5;
+}
+
+main img:hover{
+    opacity: 1;
+}
+
+footer a:visited{
+    color: grey;
 }
