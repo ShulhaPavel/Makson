@@ -5,10 +5,13 @@ header {
 
 header img{
     width: 200px;
+    padding-left: 225px;
+    padding-top: 10px;
 }
 
 nav a{
     color: white;
+    text-decoration: none;
 }
 
 .navigation{
@@ -68,4 +71,12 @@ main img:hover{
 
 footer a:visited{
     color: grey;
+}
+
+iframe{
+padding-bottom: 15px;
+}
+
+footer img{
+    padding-top: 15px;
 }
